@@ -10,3 +10,252 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+
+/*nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links a {
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    text-decoration: none;
+    padding: 1rem;
+    transition: all 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #0077ff;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #17a2b8;
+}
+
+.navbar-links {
+  display: flex;
+}
+
+.navbar-links p{
+  margin-right: 20px;
+  font-size: 16px;
+}
+
+.navbar-button button{
+  padding: 10px 20px;
+  background-color: #17a2b8;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.navbar-button button:hover {
+  background-color: #148ca6;
+}
+
+*/
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+a {
+  color: #17a2b8;
+  text-decoration: none;
+}
+
+/* Navigation bar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #17a2b8;
+}
+
+.navbar-links {
+  display: flex;
+}
+
+.navbar-links p{
+  margin-right: 20px;
+  font-size: 16px;
+}
+
+.navbar-button button{
+  padding: 10px 20px;
+  background-color: #17a2b8;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.navbar-button button:hover {
+  background-color: #148ca6;
+}
+
+/* Hero section */
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 0;
+  padding: 0 50px;
+}
+
+.hero-section-text {
+  max-width: 500px;
+}
+
+.hero-section-title {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.hero-section-description {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.hero-section-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #17a2b8;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.hero-section-button:hover {
+  background-color: #148ca6;
+  cursor: pointer;
+}
+
+.hero-section-image {
+  border: none;
+  border-radius: 50%;
+  max-width: 500px;
+  margin-left: 50px;
+}
+
+/* Features section */
+.features-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 100px 0;
+  padding: 0 50px;
+}
+
+.features-section-text {
+  max-width: 500px;
+}
+
+.features-section-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.features-section-description {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.features-section-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.features-section-list-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.features-section-list-icon {
+  font-size: 24px;
+  margin-right: 10px;
+  color: #17a2b8;
+}
+
+.features-section-list-text {
+  font-size: 16px;
+}
+.features-section-image {
+  max-width: 500px;
+  margin-left: 50px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* CTA section */
+.cta-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 100px
+}
